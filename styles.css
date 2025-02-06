@@ -6,13 +6,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8;
-    color: #333;
+    background: linear-gradient(260deg, #923CB5, #000000);
+    color: #000;
 }
 
 header {
-    background: linear-gradient(135deg, #6dd5ed, #2193b0);
-    color: white;
+    background: linear-gradient(115deg, #000000, #923CB5);
+    color: gold;
     padding: 20px 0;
     text-align: center;
 }
@@ -27,12 +27,12 @@ header {
 }
 .mypic:hover{
     transform: scale(1.2);
-    box-shadow: 0 0 10px aqua,
-                0 0 5px aqua,
-                0 0 15px aqua,
-                0 0 15px yellow,
-                0 0 5px yellow,
-                0 0 10px yellow;
+    box-shadow: 0 0 10px gold,
+                0 0 5px gold,
+                0 0 15px gold,
+                0 0 15px #fffaf1,
+                0 0 5px #fffaf1,
+                0 0 10px #fffaf1;
 }
 
 nav ul {
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: gold;
     text-decoration: none;
     font-weight: 700;
     transition:color 0.5s ease ;
@@ -54,7 +54,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
+    color: #fffaf1;
     font-size: 18px;
 }
 
@@ -62,14 +62,14 @@ section {
     padding: 40px 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: white;
+    background: #fffaf1;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #2193b0;
-    border-bottom: 2px solid #6dd5ed;
+    color: gold;
+    border-bottom: 2px solid gold;
     padding-bottom: 10px;
 }
 
@@ -80,7 +80,8 @@ h2 {
 }
 
 .project {
-    background: #6dd5 } 
+    background: #6dd5 
+} 
 
 form{
     display: inline-block;
@@ -92,7 +93,7 @@ form{
 footer{
     position: relative;
     padding: 20px 0;
-    background-color: #333;
+    background-color: #000;
 }
 
 .pfooter {
